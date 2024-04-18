@@ -50,6 +50,10 @@ botao{
    border-top: none;
 }
 
+.botao:first-child{
+   border-radius: 40px 40px 0 0;
+}
+
 .botoes{
    display: block;
 }
@@ -58,6 +62,19 @@ botao{
    .botoes {
       display: flex; 
    }
+
+   .botao:first-child{
+      border-radius: 40px 0 0 0;
+   }
+
+   .botao:last-child{
+      border-radius: 0 40px 0 0;
+   }
+}
+
+.ativo{
+   background-color: var(--botao-ativo);
+   border-bottom: 4px solid var(--verde);
 }
 
 
