@@ -113,6 +113,7 @@ border-bottom: 4px solid var(--verde);
   margin: 0;
 }
 
+
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
